@@ -406,6 +406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemBrick (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
 --- !u!1001 &719003874
@@ -418,6 +422,10 @@ PrefabInstance:
     - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_Name
       value: Brick (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2084009328996873431, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_RootOrder
@@ -529,6 +537,10 @@ PrefabInstance:
     - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
       propertyPath: m_Name
       value: ItemBrick (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
@@ -676,6 +688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemBrick (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
 --- !u!1001 &1504493940
@@ -688,6 +704,10 @@ PrefabInstance:
     - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_Name
       value: Brick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2084009328996873431, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_RootOrder
@@ -828,7 +848,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1715492389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +882,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1950319052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ItemBrick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -900,7 +920,7 @@ GameObject:
   - component: {fileID: 1953823490}
   - component: {fileID: 1953823489}
   - component: {fileID: 1953823491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5225,17 +5245,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mario
       objectReference: {fileID: 0}
+    - target: {fileID: 2608919826575204037, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -92.21
+      value: -92
       objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.85
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5281,6 +5305,10 @@ PrefabInstance:
     - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_Name
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2084009328996873431, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_RootOrder
@@ -5382,6 +5410,10 @@ PrefabInstance:
     - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
       propertyPath: m_Name
       value: ItemBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
