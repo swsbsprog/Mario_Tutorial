@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2608919826575204037}
   - component: {fileID: 2608919826575204042}
   - component: {fileID: 2608919826575204043}
+  - component: {fileID: 88936714}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Untagged
@@ -151,6 +152,7 @@ MonoBehaviour:
   speed: 3
   rb: {fileID: 2608919826575204039}
   jumpForce: {x: 0, y: 15}
+  animator: {fileID: 88936714}
 --- !u!114 &2608919826575204042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,3 +179,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!95 &88936714
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2608919826575204032}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8930de82ad6741d4bba6e686f12ac152, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
