@@ -34,6 +34,7 @@ public class Brick : MonoBehaviour
 
                     OnCrash();
                 }
+                return;
             }
         }
     }
