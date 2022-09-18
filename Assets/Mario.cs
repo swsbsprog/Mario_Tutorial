@@ -15,10 +15,5 @@ public class Mario : MonoBehaviour, IMover
             horizontal = 1;
         else if(horizontal < 0)
             horizontal = -1;
-        //transform.Translate(horizontal * speed 
-        //    * Time.deltaTime, 0, 0);
-        var pos = transform.position;
-        pos.x += horizontal * speed * Time.deltaTime;
-        transform.position = pos;
     }
 }
