@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Mario.cs" />
+    <Compile Include="Assets\FlipByDirectionX.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
