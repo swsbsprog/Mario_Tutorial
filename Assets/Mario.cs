@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Mario : MonoBehaviour, IMover
 {
-    public float speed = 3;
     public float DirectionX => horizontal;
     float horizontal;
     public Rigidbody2D rb; // gravity:2.5
