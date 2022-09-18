@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 279577745}
-  itemGo: {fileID: 4320782519239311873, guid: 8d5cca9346a644c44963075830502ccb, type: 3}
+  itemGo: {fileID: 0}
 --- !u!95 &279577745
 Animator:
   serializedVersion: 4

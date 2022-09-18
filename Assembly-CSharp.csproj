@@ -60,6 +60,8 @@
     <Compile Include="Assets\FlipByDirectionX.cs" />
     <Compile Include="Assets\MoveByDirectionX.cs" />
     <Compile Include="Assets\Brick.cs" />
+    <Compile Include="Assets\ItemBox.cs" />
+    <Compile Include="Assets\Coin.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -471,7 +471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -85.32, y: -0.54, z: -10}
+  m_LocalPosition: {x: -87.919655, y: -2.3880398, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -909,6 +909,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2084009328996873431, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1340,6 +1344,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2084009328996873431, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1568,7 +1576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1836695574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -85.32, y: -0.54, z: -10}
+  m_LocalPosition: {x: -87.9, y: -4.67, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5977,11 +5985,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -85.32
+      value: -87.9
       objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.54
+      value: -4.67
       objectReference: {fileID: 0}
     - target: {fileID: 2608919826575204038, guid: 16dc9c0fdba8d7a42b365b850900a004, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6089,6 +6097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick
       objectReference: {fileID: 0}
+    - target: {fileID: 710026829250260550, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2084009328996873431, guid: 675c1dff6d6b1fa49882ea45ba41044b, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6189,10 +6201,6 @@ PrefabInstance:
     - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
       propertyPath: m_Name
       value: ItemBrick
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798558642257929844, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
-      propertyPath: m_Layer
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fc9e87c98bedbb4aaf7481b6a8f81d4, type: 3}
